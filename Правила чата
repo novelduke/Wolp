@@ -1,0 +1,73 @@
+> For the complete documentation index, see [llms.txt](https://wiki.wolp.fun/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://wiki.wolp.fun/vvedenie/pravila-servera/pravila-chata.md).
+
+# Правила чата
+
+1.1 Запрещается чрезмерное использование капса, флуда, спама и нецензурной лексики в глобальном чате и в людных местах.
+
+`• mut • 30м.` `• warn • I уровня`
+
+\
+1.2 Запрещается чрезмерная токсичность и неадекватное поведение в чате, провокации людей на конфликт. Также запрещено оскорблять игроков, администрацию и проект по любым признакам.
+
+`• mut • 60м.` `• warn • II уровня` `• ban • I день`
+
+\
+1.3 Запрещено обсуждать политику в любом ее проявлении, NSFW, религиозные темы и пропагандировать что-либо из этого.
+
+`• mut • 60м.` `• warn • II уровня` `• ban • навсегда`
+
+\
+1.4 Запрещено упоминать чужие проекты в рекламном и позитивном контексте, но допускается обсуждение в локальном чате.
+
+`• mut • 60м.` `• warn • I уровня`
+
+\
+1.5 Запрещено вводить игроков в заблуждение, выдавая им\
+ложную информацию.
+
+`• warn • II уровня` `• ban • III дня — навсегда`
+
+\
+1.6 Запрещено выдавать себя за администрацию.
+
+`• ban • навсегда`
+
+\
+1.7 Запрещено злоупотреблять голосовым чатом (неадекватные, неприличные звуки и т.п.).
+
+`• warn • I уровня`&#x20;
+
+\
+1.8 Запрещены слова, считающиеся запрещёнными на Twitch; их можно использовать только приватно, но не в глобальном чате или общественных местах.
+
+`• mut • 60м.` `• ban • I день`
+
+## Расшифровка наказаний:
+
+`warn` - *Предупреждение, I уровень даётся на 7 дней, II - на 14 дней, III - на 31 день. 5 варнов становится баном.*
+
+`mut` - *Мут*
+
+`ban` - *Бан*
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
+
+```
+GET https://wiki.wolp.fun/vvedenie/pravila-servera/pravila-chata.md?ask=<question>&goal=<endgoal>
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
