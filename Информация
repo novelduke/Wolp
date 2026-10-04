@@ -1,0 +1,89 @@
+> For the complete documentation index, see [llms.txt](https://wiki.wolp.fun/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://wiki.wolp.fun/vvedenie/informaciya.md).
+
+# Информация
+
+Прежде чем начать игру важно ознакомиться со всей основной информацией о сервере и игровыми аспектами. Версия, геймплей, помощь - читайте здесь!
+
+***
+
+{% hint style="info" %}
+для начала игры на нашем сервере, необходимо присоединиться к нашему дискорду [dsc.gg/wolp](https://dsc.gg/wolp) и прочесть [правила сервера](/vvedenie/pravila-servera.md).
+{% endhint %}
+
+### Самое важное о сервере
+
+#### IP сервера
+
+| Основной домен   | Предназначен для                           |
+| ---------------- | ------------------------------------------ |
+| `mc.wolp.fun`    | Основной IP для всех игроков               |
+| `proxy.wolp.fun` | IP предназначенный для игроков из Украины. |
+
+#### Вкратце о сервере
+
+> **Версия ядра**: `Leaf-1.21.8`\
+> **Версия для игры**: `1.21 - 26.2`
+>
+> Сервер не поддерживается на Bedrock!
+
+> **Плановые, регулярные рестарты сервера:**
+>
+> Основной  мир — Каждый день в 00:00, 10:00, 14:00, 18:00 по МСК
+
+**Текущий сезон**
+
+> Сейчас идёт первый сезон
+>
+> **Начало**: 20 августа 2026 г. 14:30 МСК
+>
+> **Конец**: Неизвестно
+
+#### Частые вопросы ([FAQ](#chastye-voprosy-faq))
+
+Ответы на наиболее задаваемые вопросы. Узнать больше можно в [Discord](https://dsc.gg/wolp)
+
+* **Какая валюта на сервере? -** Алмазная руда (АР)
+* **На сервере есть донат?** — Да, но он не дает вам преимущества в игре. Это платная подписка ПРАЙМ
+* **Сколько длиться сезон? —** Это первый сезон у данного проекта
+* **Какой состав администрации? —** Владелец, 1 модер
+* **У кого есть доступ к креативу? —** Владелец
+* **Можно зайти с бедрока?** **—** Нет, сервер не поддерживает Bedrock
+* **Средний онлайн** на сервере? — 4-8 игроков
+* **Какой пиковый онлайн? —** ? игроков
+
+#### Самые важные ссылки
+
+Список актуальных ссылок, официальных сайтов или сервисов Wolp. Не доверяйте посторонним источникам, список всех сайтов только здесь
+
+* [Онлайн карта](https://map.whiteshieldmc.com/) — Онлайн карта мира построек сервера
+* [Магазин](https://shop.wolp.fun/) — Сайт для поддержки проекта и приобретения привилегий
+* [Telegram](https://t.me/wolpproject) — Канал сервера в мессенджере Telegram
+* [MILLIDA](https://millida.net/rating/servers/wolp) — Страница сервера на мониторинге MILLIDA
+
+***
+
+### Где я могу получить помощь?
+
+Используйте соответствующий канал с названием "тикет" в дискорде, если у вас появились вопросы на которые нет ответа на этой странице, сообщайте о проблемах и вам попытаются помочь как игроки так и администрация.
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
+
+```
+GET https://wiki.wolp.fun/vvedenie/informaciya.md?ask=<question>&goal=<endgoal>
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
